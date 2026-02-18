@@ -1,8 +1,94 @@
-# 📸 Screenshot Analyzer AI
+<div align="center">
 
-![Version](https://img.shields.io/badge/version-1.0.0-blue.svg) ![License](https://img.shields.io/badge/license-MIT-green.svg) ![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20Mac-lightgrey.svg)
+  <img src="public/icon.png" alt="logo" width="120" height="auto" />
+  
+  # 📸 Screenshot Analyzer AI
+  
+  **Turn Screenshots into Professional Documentation with AI**
 
-> **Developed by Saichandram Sadhu** 👨‍💻
+  ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg?style=for-the-badge)
+  ![License](https://img.shields.io/badge/license-MIT-green.svg?style=for-the-badge)
+  ![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20Mac-lightgrey.svg?style=for-the-badge)
+  ![Stars](https://img.shields.io/github/stars/saichandram-sadhu/AI-Image_Report_Creator-?style=for-the-badge)
+
+  <p align="center">
+    <b>Developed by Saichandram Sadhu 👨‍💻</b>
+  </p>
+
+  <a href="#installation"><strong>Download Now</strong></a> · <a href="#features"><strong>Explore Features</strong></a> · <a href="#how-it-works"><strong>See it in Action</strong></a>
+
+  <br />
+
+  <!-- 🚨 REPLACE THIS FILE WITH YOUR SCREENSHOT named 'screenshot.png' in 'assets' folder -->
+  <img src="assets/screenshot.png" alt="App Screenshot" width="800" style="border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);" />
+
+</div>
+
+<br />
+
+---
+
+## ⚡ Overview
+
+**Screenshot Analyzer AI** is the ultimate tool for developers, technical writers, and creators. Simply **Drag & Drop** a screenshot, and watch as our AI automatically:
+1.  👀 **Analyzes** the image.
+2.  🧠 **Understands** the context.
+3.  � **Writes** a step-by-step professional guide.
+
+Powered by **Ollama (Local)**, **Google Gemini**, **Groq**, and **Cohere**.
+
+---
+
+## ✨ Why Use This?
+
+| Feature | Description |
+| :--- | :--- |
+| 🚀 **Instant Analysis** | Get descriptions in seconds using cloud Llama 70B or Gemini. |
+| 🔒 **Privacy First** | Use **Local LLMs** (Ollama/LLaVA) to run 100% offline. Zero data leak. |
+| 🧠 **Multi-Model** | Switch between specific models for Speed vs Quality. |
+| 📄 **Premium Exports** | Generate **PDFs** and **Word Docs** that look like they took hours to make. |
+| 🎨 **Beautiful UI** | A modern, dark-themed interface built with React & Tailwind. |
+
+---
+
+## 🛠️ Tech Stack
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=react,vite,electron,tailwindcss,nodejs,git,linux" />
+</div>
+
+---
+
+<h2 id="installation">⬇️ Installation</h2>
+
+### 🪟 Windows
+1.  Go to [Releases](https://github.com/saichandram-sadhu/AI-Image_Report_Creator-/releases).
+2.  Download `.exe` file.
+3.  Install & Run!
+
+### 🐧 Linux (Ubuntu/Debian)
+1.  Download `.AppImage` from Releases.
+2.  Run:
+    ```bash
+    chmod +x Screenshot-Analyzer.AppImage
+    ./Screenshot-Analyzer.AppImage
+    ```
+
+### 🍎 Mac
+1.  Download `.dmg`.
+2.  Drag to Applications.
+
+---
+
+## �👨‍💻 Developer
+
+**Built with ❤️ and ☕ by Saichandram Sadhu**
+
+---
+
+<div align="center">
+  <i>Give this repo a ⭐ if you found it useful!</i>
+</div>
 
 A powerful, cross-platform desktop application that turns screenshots into professional step-by-step documentation using AI.
 
