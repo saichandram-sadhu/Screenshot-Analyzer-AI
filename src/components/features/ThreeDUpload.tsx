@@ -45,6 +45,7 @@ const ThreeDUpload: React.FC<ThreeDUploadProps> = ({ onFilesMap }) => {
 
     const { getRootProps, getInputProps, isDragActive } = useDropzone({
         accept: { 'image/*': [] },
+        multiple: true,
         onDrop: (acceptedFiles) => {
             const newFiles = acceptedFiles.map(file => ({
                 file,
