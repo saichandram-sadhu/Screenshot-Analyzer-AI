@@ -1,3 +1,4 @@
+import path from "path"
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
@@ -5,12 +6,22 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   base: './',
   plugins: [react()],
+  resolve: {
+    alias: {
+      "@": path.resolve(__dirname, "./src"),
+    },
+  },
   server: {
     proxy: {
       '/api/cohere': {
         target: 'https://api.cohere.com',
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api\/cohere/, ''),
+      },
+      '/api/groq': {
+        target: 'https://api.groq.com/openai',
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/api\/groq/, ''),
       },
     },
   },
